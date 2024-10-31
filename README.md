@@ -5,25 +5,42 @@ This application is a Python client that interacts with the JSONPlaceholder API 
 ## Installation
 
 1. Clone the repository:
-   '''
-   git clone
-   '''
+
+   ```
+   git clone https://github.com/AlexandruSamoila/api_client.git
+   ```
 
 2. Install the required packages:
-   '''
+   ```
    pip install -r requirements.txt
-   '''
+   ```
 
 ## Usage
 
 To use the application, you can run the main script:
-'''
+
+```
 python3 main.py
-'''
+```
 
 ## Type checks with mypy
 
 Use mypy to check for type errors in the code:
-'''
+
+```
 mypy main.py
-'''
+```
+
+## Running tests
+
+To run the tests, use the following command:
+
+```
+pytest
+```
+
+To run the tests with coverage report, use the following command:
+
+```
+pytest --cov=app --cov-report=xml --cov-report=term-missing
+```
