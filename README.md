@@ -38,7 +38,7 @@ python3 main.py
 
 ## Type checks with mypy
 
-Use mypy to check for type errors in the code:
+Use Mypy to check for type errors in the code:
 
 ```
 mypy <file_name>.py
