@@ -10,7 +10,20 @@ This application is a Python client that interacts with the JSONPlaceholder API 
    git clone https://github.com/AlexandruSamoila/api_client.git
    ```
 
-2. Install the required packages:
+2. Create a virtual environment:
+
+   ```
+   python3 -m venv <venv_name>
+   ```
+
+3. Activate the virtual environment:
+
+   ```
+   source <venv_name>/bin/activate
+   ```
+
+4. Install the required packages:
+
    ```
    pip install -r requirements.txt
    ```
@@ -28,7 +41,7 @@ python3 main.py
 Use mypy to check for type errors in the code:
 
 ```
-mypy main.py
+mypy <file_name>.py
 ```
 
 ## Running tests

@@ -44,7 +44,6 @@ class ApiClient:
         """
         response = requests.get(self.url + "/comments/" + comment_id)
         if response.status_code == 200:
-            print(response.status_code)
             return response.json()
         else:
             return {

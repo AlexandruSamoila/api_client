@@ -3,6 +3,7 @@ __pycache__/
 
 # Ignore virtual environment
 myenv/
+env/
 
 # Ignore coverage report files
 *.coverage
